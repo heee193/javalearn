@@ -11,5 +11,10 @@ public class HelloWorld {
 		 */
 		System.out.println("Hello World!");
 		System.out.println(hello);
+		
+		boolean flag = true;
+		if (flag) {
+			System.out.println(flag);
+		}
 	}
 }
