@@ -8,10 +8,14 @@ public class TestCirculationOne {
 		
 		for (int i = 1; i <= 100; i++) {
 			
-			if (i % 5 == 0 && count < 5) {
+			if (i % 5 == 0) {
 				
 				System.out.println(i);
 				count++;
+			}
+			
+			if (count == 5) {
+				break;
 			}
 		}
 	}
